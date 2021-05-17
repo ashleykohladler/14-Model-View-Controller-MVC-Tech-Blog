@@ -1,0 +1,17 @@
+[
+  {
+    "title": "This is my first blog",
+    "description": "Testing",
+    "user_id": 1
+  },
+  {
+    "title": "This is my second blog",
+    "description": "Testing",
+    "user_id": 2  
+  },
+  {
+    "title": "This is my third blog",
+    "description": "Testing",
+    "user_id": 3
+  }
+]
