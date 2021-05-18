@@ -2,6 +2,7 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const title = document.querySelector('#blog-title').value.trim();
+  
   const description = document.querySelector('#blog-desc').value.trim();
 
   if (title && description) {
