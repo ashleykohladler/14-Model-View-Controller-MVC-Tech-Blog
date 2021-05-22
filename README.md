@@ -8,6 +8,7 @@
 3. [License](#License)
 4. [Contributing](#Contributing)
 5. [Questions](#Questions)
+6. [Screenshot](#screenshot)
 
 
 # Description 
@@ -38,7 +39,7 @@ Contributions are excepted. Fill free to fork.
 ashleykohladler
 
 ### Link to GitHub:
-https://github.com/ashleykohladler/-13-Object-Relational-Mapping-ORM-E-Commerce-Back-End
+https://github.com/ashleykohladler/14-Model-View-Controller-MVC-Tech-Blog
 
 ### Link to Heroku:
 https://guarded-hamlet-57145.herokuapp.com/
@@ -46,4 +47,7 @@ https://guarded-hamlet-57145.herokuapp.com/
 ### Email address 
 ashleykohladler@gmail.com
 
+### Screenshot
+
+ ![screenshot](./image/techblog.png)
 
