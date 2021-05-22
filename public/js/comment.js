@@ -1,21 +1,23 @@
-const commentFormHandler = async (event) => {
-    event.preventDefault();
-    // const comment_title = document.querySelector('#comment_title-comment').value.trim();
-    const comment_description = document.querySelector('#comment-body').value.trim();
-    const blog_id = document.querySelector('.comment-form').dataset.blog_id;
-    if (comment_description && blog_id ) {
-      const response = await fetch('/api/comment', {
-        method: 'POST',
-        body: JSON.stringify({ comment_description, blog_id }),
-        headers: { 'Content-Type': 'application/json' },
-      });
-      if (response.ok) {
-        document.location.replace('/dashboard');
-      } else {
-        alert(response.statusText);
+const commentFormHandler = async function(event) {
+  event.preventDefault();
+      const blog_id = document.querySelector('.new-comment-form').dataset.blogid;
+  const comment_description = document.querySelector('#comment_description').value.trim();
+  if (comment_description) {
+    console.log("testing post for comments")
+    await fetch('/api/comments', {
+      method: 'POST',
+      body: JSON.stringify({
+        blog_id,
+        comment_description
+      }),
+      headers: {
+        'Content-Type': 'application/json'
       }
-    }
-  };
-  document
-  .querySelector('.comment-form')
+    });
+    console.log("post for comments compleat")
+    document.location.reload();
+  }
+};
+document
+  .querySelector('.new-comment-form')
   .addEventListener('submit', commentFormHandler);
