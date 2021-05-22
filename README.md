@@ -8,8 +8,7 @@
 3. [License](#License)
 4. [Contributing](#Contributing)
 5. [Questions](#Questions)
-6. [Demo](#Demo)
-7. [Badges](#Badges)
+
 
 # Description 
 
@@ -41,12 +40,10 @@ ashleykohladler
 ### Link to GitHub:
 https://github.com/ashleykohladler/-13-Object-Relational-Mapping-ORM-E-Commerce-Back-End
 
+### Link to Heroku:
+https://guarded-hamlet-57145.herokuapp.com/
+
 ### Email address 
 ashleykohladler@gmail.com
 
-
-# Demos
-
-### Create Schema and Seed data
-![Demo](./images/demo.gif)
 
